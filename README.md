@@ -50,14 +50,43 @@ A hands-on journey through DNS lookups, TCP 3-way handshakes, TLS encryption, an
 
 ---
 
-## 🛠️ Technical Skills Covered
+### �️ [05 - Firewall Configuration](./05-Firewall-Configuration/)
+**The Network Segmentation Challenge**
+
+Those gnomes messed with the firewall rules! We configured proper network segmentation between Internet, DMZ, Internal Network, Cloud Services, and Workstations - blocking direct internet access to internal systems.
+
+**Skills:** Firewall rules, network segmentation, DMZ architecture, port management
+
+---
+
+### 🔍 [06 - Nmap Scanning](./06-Nmap-Scanning/)
+**The Reconnaissance Mission**
+
+Time to find what the gnomes are hiding! We used nmap to scan for open ports, identify services, and grab banners from mysterious network hosts.
+
+**Skills:** Port scanning, service detection, banner grabbing, nmap, ncat
+
+---
+
+### ☁️ [07 - Azure CLI - Storage Secrets](./07-Azure-CLI/)
+**The Cloud Misconfiguration**
+
+Someone left their Azure storage wide open! We discovered a misconfigured storage account with public blob access and found exposed admin credentials.
+
+**Skills:** Azure CLI, cloud security, storage account enumeration, blob access, misconfiguration detection
+
+---
+
+## �️ Technical Skills Covered
 
 | Category | Skills |
 |----------|--------|
 | **Threat Intel** | Regex, IOC extraction, defanging, phishing analysis |
 | **Linux** | Privilege escalation, PATH hijacking, sudo, ss, bash |
-| **Networking** | DNS, TCP, TLS, HTTP/HTTPS, ports |
-| **Security** | Threat analysis, indicator handling, safe sharing |
+| **Networking** | DNS, TCP, TLS, HTTP/HTTPS, ports, firewalls |
+| **Scanning** | Nmap, port scanning, service detection, banner grabbing |
+| **Cloud** | Azure CLI, storage accounts, blob containers, misconfigurations |
+| **Security** | Threat analysis, indicator handling, network segmentation |
 
 ---
 
@@ -77,6 +106,12 @@ Holiday-Hack-Challenge-2025--Revenge-of-the-Gnome/
 ├── 03-Santa-Tracker/
 │   └── README.md
 ├── 04-Visual-Networking-DNS/
+│   └── README.md
+├── 05-Firewall-Configuration/
+│   └── README.md
+├── 06-Nmap-Scanning/
+│   └── README.md
+├── 07-Azure-CLI/
 │   └── README.md
 └── README.md
 ```
